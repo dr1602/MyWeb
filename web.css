@@ -1,0 +1,33 @@
+:root {
+    --health-pink: #FF3678;
+    --health-pink-light: #FFCFFF;
+    --health-blue: #62BAAC;
+    --health-blue-light: #C3FCF1;
+    --health-purple: #8E65B7;
+    --health-purple-light: #C598F0;
+    --black: #000;
+    --light-black: #808080;
+    --border: .1rem solid rgba(0,0,0,.1);
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+/* colour pallet: https://mycolor.space/?hex=%23FF3678&sub=1 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .15s ease-in-out;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+    overflow-x: hidden;
+}
